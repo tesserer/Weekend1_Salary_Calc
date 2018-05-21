@@ -102,4 +102,4 @@ function showEmployee() {
 //DONE append this to the to DOM.
 
 //If the total monthly cost exceeds $20,000,
-//add a red background color to the total monthly cost.
+//DONE add a red background color to the total monthly cost.
