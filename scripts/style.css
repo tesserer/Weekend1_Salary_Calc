@@ -1,0 +1,17 @@
+h1 {
+  text-align: center;
+  background-color: gray;
+  padding: 30px;
+}
+
+h2 {
+  text-align: center;
+}
+
+#monthTotal {
+  text-align: center;
+}
+
+tfoot {
+  background-color: gray
+}

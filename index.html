@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="Vendors/jquery-3.3.1.min.js" charset="utf-8"></script>
+    <script src="scripts/client.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="Vendors/bootstrap.min.css">
+    <link rel="stylesheet" href="scripts/style.css">
+    <title>Weekend 1 Salary Calculator</title>
+  </head>
+  <body>
+
+    <div id="input">
+
+    <br>
+    <br>
+    <h1>Salary Calculator - Add Employee</h1>
+    <br>
+    <br>
+    <input placeholder="First Name" id="firstnameInput"/>
+    <input placeholder="Last Name" id="lastnameInput"/>
+    <input placeholder="Employee ID" id="idInput"/>
+    <input placeholder="Job Title" id="jobtitleInput"/>
+    <input placeholder="Annual Salary" id="salaryInput"/>
+    <button id="submitEmp" class="btn btn-success">Submit</button>
+
+    </div>
+<br>
+<br>
+<div id="output">
+    <h2>Employees</h2>
+<div class="table">
+<table class="table table-striped table-bordered">
+<thead>
+  <tr>
+
+
+  <th>First Name</th>
+  <th>Last Name</th>
+  <th>Employee ID</th>
+  <th>Job Title</th>
+  <th>Annual Salary</th>
+
+  </tr>
+</thead>
+
+<tbody id="empTable">
+
+
+</tbody>
+
+<tfoot>
+
+</tfoot>
+</table>
+
+</div>
+</div>
+
+<section id="monthTotal">
+
+<h3>Monthly Totals: $0</h3>
+
+</section>
+
+</body>
+</html>
